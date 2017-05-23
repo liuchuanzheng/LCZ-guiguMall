@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#ffffff"
-    tools:context="com.liuchuanzheng.lcz_guigumall.activitys.WelcomeActivity">
+    tools:context="com.liuchuanzheng.lcz_guigumall.app.WelcomeActivity">
 
     <ImageView
         android:layout_centerInParent="true"

@@ -1,4 +1,4 @@
-package com.liuchuanzheng.lcz_guigumall.activitys;
+package com.liuchuanzheng.lcz_guigumall.app;
 
 import android.app.Activity;
 import android.content.Intent;

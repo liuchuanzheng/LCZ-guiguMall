@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.liuchuanzheng.lcz_guigumall.R;
+import com.liuchuanzheng.lcz_guigumall.utils.MyLogger;
 
 public class WelcomeActivity extends Activity {
 
@@ -20,6 +21,7 @@ public class WelcomeActivity extends Activity {
             public void run() {
                 //这是运行在主线程的,因为handler在主线程创建
                 //开启主界面,并关闭自己
+                MyLogger.lczLog().i("闪屏结束");
                 startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
                 finish();
             }
